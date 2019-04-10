@@ -29,8 +29,8 @@ int main() {
     findLongestWordSimple(text);
     auto timeSimple = Timer::timerEnd(id);
 
-    cout << "Striding: " << timeStriding << "ms\n"
-	 << "Simple: " << timeSimple << "ms" << endl;
+    cout << "Striding: " << timeStriding << "us\n"
+	 << "Simple: " << timeSimple << "us" << endl;
 
     return 0;
 }
